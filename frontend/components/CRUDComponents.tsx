@@ -26,14 +26,14 @@ const CRUDComponent: React.FC<{ data: DataItem[] }> = ({ data }) => {
 
   return (
     <Table striped bordered hover responsive>
-      <thead>
+      {/* <thead>
         <tr>
           <th>ID</th>
           <th>Name</th>
           <th>Value</th>
           <th>Actions</th>
         </tr>
-      </thead>
+      </thead> */}
       <tbody>
         {items.map(item => (
           <tr key={item.id}>
